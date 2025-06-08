@@ -1,13 +1,13 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package hitung;
 
-/**
- *
- * @author Dell 5290
- */
 public class MatematikaBeraksi {
-    
+    public static void main(String[] args) {
+        // Membuat objek Matematika
+        Matematika mtk = new Matematika(10.5, 4.5);
+
+        // Menampilkan hasil penjumlahan
+        double hasil = mtk.setPenjumlahan();
+        System.out.println("Hasil Penjumlahan: " + hasil);
+    }
 }
