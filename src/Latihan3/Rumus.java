@@ -1,5 +1,10 @@
 package latihan3;
 
+/**
+ * Nama  : Achmad Rafiq Syaddid
+ * NPM   : 2310010677
+ * Kelas : 4A
+ */
 public class Rumus {
 
     // Atribut bertipe bilangan bulat
