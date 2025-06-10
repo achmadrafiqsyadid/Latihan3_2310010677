@@ -13,7 +13,7 @@ public class Rumus {
     public int lebar;
     public int hasil;
 
-    // Konstruktor
+    // Konstruktor untuk menyetel semua nilai ke nol
     public Rumus() {
         this.sisi = 0;
         this.panjang = 0;
@@ -21,13 +21,18 @@ public class Rumus {
         this.hasil = 0;
     }
 
-    // Method menghitung luas persegi
+    // Method mutator menghitung luas persegi
     public void luasPersegiRafiq() {
         hasil = sisi * sisi;
     }
 
-    // Method menghitung luas persegi panjang
+    // Method mutator menghitung luas persegi panjang
     public void luasPersegiPanjangRafiq() {
         hasil = panjang * lebar;
+    }
+
+    // Method accessor untuk mengembalikan nilai hasil
+    public int getHasilRafiq() {
+        return hasil;
     }
 }
