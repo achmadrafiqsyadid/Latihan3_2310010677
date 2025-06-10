@@ -1,6 +1,10 @@
+package latihan3;
 
-package Latihan3;
-
+/**
+ * Nama  : Achmad Rafiq Syaddid
+ * NPM   : 2310010677
+ * Kelas : 4A
+ */
 public class Rumus {
 
     // Atribut bertipe bilangan bulat
@@ -9,7 +13,7 @@ public class Rumus {
     public int lebar;
     public int hasil;
 
-    // Contoh konstruktor (opsional)
+    // Konstruktor
     public Rumus() {
         this.sisi = 0;
         this.panjang = 0;
@@ -17,5 +21,13 @@ public class Rumus {
         this.hasil = 0;
     }
 
-    // Metode lain bisa ditambahkan di sini
+    // Method menghitung luas persegi
+    public void luasPersegiRafiq() {
+        hasil = sisi * sisi;
+    }
+
+    // Method menghitung luas persegi panjang
+    public void luasPersegiPanjangRafiq() {
+        hasil = panjang * lebar;
+    }
 }
